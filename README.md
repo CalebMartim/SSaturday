@@ -35,6 +35,33 @@ Sim
 ```
 
 ### Problema 2
+Dado duas string A e B, informe o tamanho do maior prefixo em comum entre A e B
+#### Entrada
+```
+6
+abaco
+abacaxi
+teste
+test
+abc 
+abcd
+apple
+apricot
+exemplo
+exposicao
+banana
+banan
+```
+#### Saída
+```
+4
+4
+3
+2
+2
+5
+```
+
 ### Problema 3
 
 ## Listas 
