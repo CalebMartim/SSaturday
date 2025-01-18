@@ -4,7 +4,7 @@
 
 ## Strings
 
-### Problema 1
+## Problema 1
 Dado uma string A e outra string B, informe se A é uma substring de B
 
 **Exemplo**:
@@ -34,7 +34,7 @@ Sim
 Sim
 ```
 
-### Problema 2
+## Problema 2
 Dado duas strings A e B, informe o tamanho do maior prefixo em comum entre A e B
 
 #### Entrada
@@ -63,7 +63,7 @@ banan
 5
 ```
 
-### Problema 3
+## Problema 3
 Dado uma string que contém apenas caractéres ```x``` e ```.``` informe qual é a maior 
 distância entre dois caractéres ```x```, isto é, a maior quantidade de caractéres 
 ```.``` que está entre dois caractéres ```x```.
@@ -90,7 +90,7 @@ x.x.x.x
 
 ## Listas 
 
-### Problema 1
+## Problema 1
 Dado uma lista de números inteiros e um inteiro K, informe quantos elementos dessa lista são maiores
 do que K
 
@@ -117,7 +117,7 @@ do que K
 5
 ```
 
-### Problema 2
+## Problema 2
 Dado uma lista de números inteiros, verifique se a lista é uma permutação do tamanho 
 desta lista, isto é, todos os números entre 1, 2, ... até o tamanho da lista aparecem exatamente uma vez
 #### Entrada
@@ -143,7 +143,7 @@ Nao
 Nao
 ```
 
-### Problema 3
+## Problema 3
 Dado uma lista de números inteiros a um número inteiro X informe dois números 
 nesta lista tal que a soma deles sejam igual a X ou informe que não há tal par
 
