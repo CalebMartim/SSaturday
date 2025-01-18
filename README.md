@@ -170,6 +170,3 @@ Nao tem
 2 7
 3 3
 ```
-
-# Problema Bônus (Strings e Listas)
-Dado uma string, informe todas as suas substrings que são palíndromos
