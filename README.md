@@ -40,6 +40,24 @@ Sim
 ## Listas 
 
 ### Problema 1
+Dado uma lista de números inteiros e um inteiro K, informe quantos elementos dessa lista são maiores
+do que K
+
+#### Entrada
+```
+2
+1 5 7 5 10 3
+5
+1 2 3 4
+5
+```
+
+#### Saída
+```
+2
+0
+```
+
 ### Problema 2
 ### Problema 3
 
