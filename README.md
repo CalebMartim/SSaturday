@@ -118,7 +118,58 @@ do que K
 ```
 
 ### Problema 2
-### Problema 3
+Dado uma lista de números inteiros, verifique se a lista é uma permutação do tamanho 
+desta lista, isto é, todos os números entre 1, 2, ... até o tamanho da lista aparecem exatamente uma vez
+#### Entrada
+```
+7
+1 2 3 4 5
+5 4 3 2 1
+1 2 2 
+2 1 4 3 6 5
+1
+2 2
+1 2 3 4 5 7
+```
 
+#### Saída
+```
+Sim
+Sim
+Nao
+Sim
+Sim
+Nao
+Nao
+```
+
+### Problema 3
+Dado uma lista de números inteiros a um número inteiro X informe dois números 
+nesta lista tal que a soma deles sejam igual a X ou informe que não há tal par
+
+#### Entrada
+```
+5
+3
+1 2 3 4 5
+6
+2 7 5 1
+8
+7 8 13 1 
+2
+2 11 15 7
+9
+3 3 
+6
+```
+
+#### Saída
+```
+2 4
+7 1
+Nao tem
+2 7
+3 3
+```
 
 # Problema Bônus (Strings e Listas)
