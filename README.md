@@ -14,7 +14,7 @@ a string ```bcd``` é substring da string ```abcdef```
 #### Entrada
 ```
 5
-bcd 
+bcd
 abcdef
 abd
 abcdef
@@ -173,3 +173,4 @@ Nao tem
 ```
 
 # Problema Bônus (Strings e Listas)
+Dado uma string, informe todas as suas substrings que são palíndromos
