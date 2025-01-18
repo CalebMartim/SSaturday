@@ -36,6 +36,7 @@ Sim
 
 ### Problema 2
 Dado duas string A e B, informe o tamanho do maior prefixo em comum entre A e B
+
 #### Entrada
 ```
 6
@@ -63,6 +64,29 @@ banan
 ```
 
 ### Problema 3
+Dado uma string que contém apenas caractéres ```x``` e ```.``` informe qual é a maior 
+distância entre dois caractéres ```x```, isto é, a maior quantidade de caractéres 
+```.``` que está entre dois caractéres ```x```.
+
+#### Entrada
+
+```
+5
+...x.x.x..xx.....x..x
+....x...x...x...x....
+....x
+x.x.x.x
+.....
+```
+
+#### Saída
+```
+5
+3
+0
+1
+0
+```
 
 ## Listas 
 
