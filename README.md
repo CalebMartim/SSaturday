@@ -2,7 +2,7 @@
 
 ## Problemas práticos
 
-## String s
+## Strings
 
 ### Problema 1
 Dado uma string A e outra string B, informe se A é uma substring de B
@@ -11,7 +11,21 @@ Dado uma string A e outra string B, informe se A é uma substring de B
 
 a string ```bcd``` é substring da string ```abcdef```
 
-#### Casos de teste 
+#### Entrada
+```
+5
+bcd 
+abcdef
+abd
+abcdef
+olamundo
+oimundo
+ecraf
+minecraft
+c202
+apc2025.1
+```
+
 ### Problema 2
 ### Problema 3
 
