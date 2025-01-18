@@ -35,7 +35,7 @@ Sim
 ```
 
 ### Problema 2
-Dado duas string A e B, informe o tamanho do maior prefixo em comum entre A e B
+Dado duas strings A e B, informe o tamanho do maior prefixo em comum entre A e B
 
 #### Entrada
 ```
@@ -150,7 +150,6 @@ nesta lista tal que a soma deles sejam igual a X ou informe que não há tal par
 #### Entrada
 ```
 5
-3
 1 2 3 4 5
 6
 2 7 5 1
