@@ -25,6 +25,14 @@ minecraft
 c202
 apc2025.1
 ```
+#### Saída
+```
+Sim
+Nao
+Nao
+Sim
+Sim
+```
 
 ### Problema 2
 ### Problema 3
