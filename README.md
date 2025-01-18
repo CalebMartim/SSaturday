@@ -7,9 +7,11 @@
 ### Problema 1
 Dado uma string A e outra string B, informe se A é uma substring de B
 
-Exemplo:
+**Exemplo**:
 
 a string ```bcd``` é substring da string ```abcdef```
+
+#### Casos de teste 
 ### Problema 2
 ### Problema 3
 
