@@ -2,9 +2,14 @@
 
 ## Problemas práticos
 
-## String 
+## String s
 
 ### Problema 1
+Dado uma string A e outra string B, informe se A é uma substring de B
+
+Exemplo:
+
+a string ```bcd``` é substring da string ```abcdef```
 ### Problema 2
 ### Problema 3
 
@@ -15,4 +20,4 @@
 ### Problema 3
 
 
-# Problema Bônus (strings e listas)
+# Problema Bônus (Strings e Listas)
