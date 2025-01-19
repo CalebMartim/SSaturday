@@ -146,7 +146,7 @@ Nao
 
 ## Problema 3
 Dado uma lista de números inteiros a um número inteiro X informe dois números 
-nesta lista tal que a soma deles sejam igual a X ou informe que não há tal par
+nesta lista tal que a soma deles seja igual a X ou informe que não há tal par
 
 #### Entrada
 ```
@@ -170,4 +170,74 @@ nesta lista tal que a soma deles sejam igual a X ou informe que não há tal par
 Nao tem
 2 7
 3 3
+```
+
+# Soluções
+## Strings
+## Problema 1
+## Problema 2
+## Problema 3
+
+## Listas
+## Problema 1
+```python3
+t = int(input())
+for _ in range(t):
+  lista = list(map(int, input().split()))
+  # Forma diferente de ser uma lista da entrada:
+  # lista = [int(x) for x in input().split()]
+  k = int(input())
+  quantidade = 0
+  for elemento in lista:
+    if elemento > k:
+      quantidade += 1
+  print(quantidade)
+```
+## Problema 2
+### Solução 1:
+```python3
+t = int(input())
+for _ in range(t):
+	lista = [int(x) for x in input().split()]
+	lista.sort()
+	permutacao = [0] * len(lista)
+	for i in range(len(permutacao)):
+		permutacao[i] = (i + 1) 
+	if lista == permutacao:
+		print("Sim")
+	else:
+		print("Nao")
+```
+### Solução 2:
+```python3
+t = int(input())
+for _ in range(t):
+	lista = [int(x) for x in input().split()]
+	lista.sort()
+	deu_errado = False
+	for i in range(len(lista)):
+		if lista[i] != i + 1:
+			deu_errado = True
+	if deu_errado:
+		print("Nao")
+	else:
+		print("Sim")
+```
+## Problema 3
+```python3
+t = int(input())
+for _ in range(t):
+  lista = [int(x) for x in input().split()]
+  x = int(input())
+  encontrou = False 
+  resposta = []
+  for i in range(len(lista)):
+    for j in range(i + 1, len(lista)):
+      if lista[i] + lista[j] == x:
+        resposta = [lista[i], lista[j]]
+        encontrou = True
+  if encontrou:
+    print(*resposta)
+  else:
+    print("Nao tem")
 ```
