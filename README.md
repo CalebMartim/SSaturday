@@ -172,30 +172,65 @@ Nao tem
 3 3
 ```
 
-# Soluções
+# Soluções {#solucoes}
 ## Strings
 ## Problema 1
+```python
+t = int(input())
+for _ in range(t):
+    a = input()
+    b = input()
+
+    if a in b:
+        print("Sim")
+    else:
+        print("Nao")
+```
 ## Problema 2
+```python
+t = int(input())
+for _ in range(t):
+    a = input()
+    b = input()
+    p = 0
+    while p < len(a) and p < len(b) and a[p] == b[p]:
+        p += 1
+    print(p)
+```
+
 ## Problema 3
+```python
+t = int(input())
+for _ in range(t):
+    s = input()
+    ultimo = -1
+    resposta = 0
+    for i in range(len(s)):
+        if s[i] == 'x':
+            if ultimo != -1:
+                resposta = max(resposta, i - ultimo - 1)
+            ultimo = i
+    print(resposta)
+```
 
 ## Listas
 ## Problema 1
-```python3
+```python
 t = int(input())
 for _ in range(t):
-  lista = list(map(int, input().split()))
-  # Forma diferente de ser uma lista da entrada:
-  # lista = [int(x) for x in input().split()]
-  k = int(input())
-  quantidade = 0
-  for elemento in lista:
-    if elemento > k:
-      quantidade += 1
-  print(quantidade)
+    lista = list(map(int, input().split()))
+    # Forma diferente de se ler uma lista da entrada:
+    # lista = [int(x) for x in input().split()]
+    k = int(input())
+    quantidade = 0
+    for elemento in lista:
+        if elemento > k:
+            quantidade += 1
+    print(quantidade)
 ```
 ## Problema 2
 ### Solução 1:
-```python3
+```python
 t = int(input())
 for _ in range(t):
 	lista = [int(x) for x in input().split()]
@@ -209,7 +244,7 @@ for _ in range(t):
 		print("Nao")
 ```
 ### Solução 2:
-```python3
+```python
 t = int(input())
 for _ in range(t):
 	lista = [int(x) for x in input().split()]
@@ -224,20 +259,20 @@ for _ in range(t):
 		print("Sim")
 ```
 ## Problema 3
-```python3
+```python
 t = int(input())
 for _ in range(t):
-  lista = [int(x) for x in input().split()]
-  x = int(input())
-  encontrou = False 
-  resposta = []
-  for i in range(len(lista)):
-    for j in range(i + 1, len(lista)):
-      if lista[i] + lista[j] == x:
-        resposta = [lista[i], lista[j]]
-        encontrou = True
-  if encontrou:
-    print(*resposta)
-  else:
-    print("Nao tem")
+    lista = [int(x) for x in input().split()]
+    x = int(input())
+    encontrou = False 
+    resposta = []
+    for i in range(len(lista)):
+        for j in range(i + 1, len(lista)):
+            if lista[i] + lista[j] == x:
+                resposta = [lista[i], lista[j]]
+                encontrou = True
+    if encontrou:
+        print(*resposta)
+    else:
+        print("Nao tem")
 ```
