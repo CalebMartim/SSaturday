@@ -2,16 +2,16 @@
 
 ## Problemas práticos
 
-## Strings
+### Strings
 
-## Problema 1
+#### Problema 1
 Dado uma string A e outra string B, informe se A é uma substring de B
 
 **Exemplo**:
 
 a string ```bcd``` é substring da string ```abcdef```
 
-#### Entrada
+##### Entrada
 ```
 5
 bcd
@@ -25,7 +25,7 @@ minecraft
 c202
 apc2025.1
 ```
-#### Saída
+##### Saída
 ```
 Sim
 Nao
@@ -34,10 +34,10 @@ Sim
 Sim
 ```
 
-## Problema 2
+#### Problema 2
 Dado duas strings A e B, informe o tamanho do maior prefixo em comum entre A e B
 
-#### Entrada
+##### Entrada
 ```
 6
 abaco
@@ -53,7 +53,7 @@ exposicao
 banana
 banan
 ```
-#### Saída
+##### Saída
 ```
 4
 4
@@ -63,12 +63,12 @@ banan
 5
 ```
 
-## Problema 3
+#### Problema 3
 Dado uma string que contém apenas caractéres ```x``` e ```.``` informe qual é a maior 
 distância entre dois caractéres ```x```, isto é, a maior quantidade de caractéres 
 ```.``` que está entre dois caractéres ```x```.
 
-#### Entrada
+##### Entrada
 
 ```
 5
@@ -79,7 +79,7 @@ x.x.x.x
 .....
 ```
 
-#### Saída
+##### Saída
 ```
 5
 3
@@ -88,13 +88,13 @@ x.x.x.x
 0
 ```
 
-## Listas 
+### Listas 
 
-## Problema 1
+#### Problema 1
 Dado uma lista de números inteiros e um inteiro K, informe quantos elementos dessa lista são maiores
 do que K
 
-#### Entrada
+##### Entrada
 ```
 5
 1 5 7 5 10 3
@@ -109,7 +109,7 @@ do que K
 145
 ```
 
-#### Saída
+##### Saída
 ```
 2
 0
@@ -118,10 +118,10 @@ do que K
 5
 ```
 
-## Problema 2
+#### Problema 2
 Dado uma lista de números inteiros, verifique se a lista é uma permutação do tamanho 
 desta lista, isto é, todos os números entre 1, 2, ... até o tamanho da lista aparecem exatamente uma vez
-#### Entrada
+##### Entrada
 ```
 7
 1 2 3 4 5
@@ -133,7 +133,7 @@ desta lista, isto é, todos os números entre 1, 2, ... até o tamanho da lista 
 1 2 3 4 5 7
 ```
 
-#### Saída
+##### Saída
 ```
 Sim
 Sim
@@ -144,11 +144,11 @@ Nao
 Nao
 ```
 
-## Problema 3
+#### Problema 3
 Dado uma lista de números inteiros a um número inteiro X informe dois números 
 nesta lista tal que a soma deles seja igual a X ou informe que não há tal par
 
-#### Entrada
+##### Entrada
 ```
 5
 1 2 3 4 5
@@ -163,7 +163,7 @@ nesta lista tal que a soma deles seja igual a X ou informe que não há tal par
 6
 ```
 
-#### Saída
+##### Saída
 ```
 2 4
 7 1
@@ -172,9 +172,9 @@ Nao tem
 3 3
 ```
 
-# Soluções {#solucoes}
-## Strings
-## Problema 1
+## Soluções 
+### Strings
+#### Problema 1
 ```python
 t = int(input())
 for _ in range(t):
@@ -186,7 +186,7 @@ for _ in range(t):
     else:
         print("Nao")
 ```
-## Problema 2
+#### Problema 2
 ```python
 t = int(input())
 for _ in range(t):
@@ -198,7 +198,7 @@ for _ in range(t):
     print(p)
 ```
 
-## Problema 3
+#### Problema 3
 ```python
 t = int(input())
 for _ in range(t):
@@ -213,8 +213,8 @@ for _ in range(t):
     print(resposta)
 ```
 
-## Listas
-## Problema 1
+### Listas
+#### Problema 1
 ```python
 t = int(input())
 for _ in range(t):
@@ -228,8 +228,8 @@ for _ in range(t):
             quantidade += 1
     print(quantidade)
 ```
-## Problema 2
-### Solução 1:
+#### Problema 2
+##### Solução 1:
 ```python
 t = int(input())
 for _ in range(t):
@@ -243,7 +243,7 @@ for _ in range(t):
 	else:
 		print("Nao")
 ```
-### Solução 2:
+##### Solução 2:
 ```python
 t = int(input())
 for _ in range(t):
@@ -258,7 +258,7 @@ for _ in range(t):
 	else:
 		print("Sim")
 ```
-## Problema 3
+#### Problema 3
 ```python
 t = int(input())
 for _ in range(t):
